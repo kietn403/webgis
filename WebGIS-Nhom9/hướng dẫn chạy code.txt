@@ -1,0 +1,23 @@
+Trc tiên bạn hãy chắc rằng mình cài xampp vài đã truy cập trang phpadmin để tạo dữ liệu theo code và phần hướng dẫn mà tui đã gửi
+Truy cập localhost phpmyadmin
+ 
+Sau đó tạo bảng thông tin SQL
+CREATE TABLE contacts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(150) NOT NULL,
+  phone VARCHAR(20),
+  message TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);]
+
+LƯU Ý KHI CHẠY CODE GỘP
+-	CHUYỂN TẤT CẢ FILE VÀO HTDOCS
+-	MỞ cmd tìm file bạn lưu trong htdocs tùy theo tên bạn đã lưu:
+-	Vd 
+-	D:\ cd:xampp/htdocs/WebGIS-Nhom9 
+(chắc rằng bạn đã lưu vào htdocs để có form liên hệ)
+-	npm install (có thể bỏ qua nếu bạn đã chạy trc đó)
+-	npm start 
+-	chạy và nhấn vào link hiện ra
+•	Nếu bạn ko chuyển file code vào htdocs sẽ gặp 1 lỗi là khi chạy code ở phần liên hệ sau khi điền thông tin nó sẽ báo lỗi 
