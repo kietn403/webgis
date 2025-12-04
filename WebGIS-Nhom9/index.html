@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>...... - Thư viện bảo tàng</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pages/main-program/style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
+    />
+    <script src="https://unpkg.com/leaflet-polylinedecorator"></script>
+  </head>
+  <body>
+    <div class="top-layer">
+      <h1>Nhóm 9</h1>
+    </div>
+    <div id="app" class="app">
+      <aside class="left-bar" aria-label="Điều hướng chính">
+        <div
+          id="toggle"
+          class="three-bars"
+          title="Mở/đóng menu"
+          aria-expanded="false"
+          role="button"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav class="menu" role="navigation">
+          <a class="menu-item active" data-page="home" href="#home"
+            >Trang chủ</a
+          >
+          <a class="menu-item" data-page="about" href="#about">Giới thiệu</a>
+          <a class="menu-item" data-page="functions1">Chức năng</a>
+          <a class="menu-item" data-page="functions2">Liên hệ</a>
+        </nav>
+      </aside>
+
+      <main class="main" id="main" tabindex="0">
+        <section id="view-home" class="view">
+          <header class="main-header">
+            <div>
+              <h1 class="title">WebSIS về khu di tích, bảo tàng</h1>
+              <div class="subtitle">
+                <strong>Bộ sưu tập hình ảnh khu di tích, bảo tàng</strong>
+              </div>
+            </div>
+          </header>
+
+          <section class="gallery" id="gallery">
+            <article class="card fade-in">
+              <img
+                src="https://congdankhuyenhoc.qltns.mediacdn.vn/449484899827462144/2023/8/8/dinh-doc-lap-01-1691503563713662232105.jpg"
+                alt="Dinh Độc Lập"
+              />
+              <div class="card-body">
+                <div class="card-title">Dinh Độc Lập</div>
+                <div class="card-text"></div>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <img
+                src="https://i.vietgiaitri.com/2022/11/6/nha-hat-thanh-pho-ho-chi-minh-tro-ve-voi-mot-sai-gon-xua-cu-28d-6730793.jpg"
+                alt="Bảo tàng 2"
+              />
+              <div class="card-body">
+                <div class="card-title">Nhà hát thành phố</div>
+                <div class="card-text"></div>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <img
+                src="https://media.vneconomy.vn/w800/images/upload/2022/02/14/cho-ben-thanh-sai-gon-10.jpg"
+                alt="Bảo tàng 2"
+              />
+              <div class="card-body">
+                <div class="card-title">Chợ Bến Thành</div>
+                <div class="card-text"></div>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <img
+                src="https://thumbs.dreamstime.com/b/statue-ho-chi-minh-saigon-front-city-hall-vietnam-178340643.jpg"
+                alt="Bảo tàng 2"
+              />
+              <div class="card-body">
+                <div class="card-title">Tượng Bác Hồ Chí Minh</div>
+                <div class="card-text"></div>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <img
+                src="https://sohanews.sohacdn.com/160588918557773824/2024/4/30/img2368-00582171-1714443524652-171444352510339717123.jpg"
+                alt="Bảo tàng 3"
+              />
+              <div class="card-body">
+                <div class="card-title">Bảo tàng chiến dịch Hồ Chí Minh</div>
+                <div class="card-text"></div>
+              </div>
+            </article>
+          </section>
+        </section>
+
+        <section id="view-about" class="view" style="display: none">
+          <div class="page">
+            <h2>Giới thiệu thành viên nhóm</h2>
+            <p style="margin-top: 12px; color: #44515f; line-height: 1.6">
+              <strong
+                >Khoa Môi Trường & Tài Nguyên - Ngành Hệ Thống Thông Tin - Lớp
+                DH22HM</strong
+              >
+            </p>
+            <ul
+              style="
+                margin-top: 16px;
+                list-style: disc;
+                padding-left: 20px;
+                color: #334155;
+              "
+            >
+              <table>
+                <thead>
+                  <tr>
+                    <th>Họ Và Tên</th>
+                    <th>MSSV</th>
+                    <th>Vai Trò / Mô Tả</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lê Ngọc Anh Khoa</td>
+                    <td>22166033</td>
+                    <td>
+                      Xây dựng trang bản đồ, tích hợp bản đồ nền (Google/OSM),
+                      hiển thị lớp dữ liệu, popup thông tin, cập nhật địa điểm
+                      mới.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Nguyễn Tuấn Kiệt</td>
+                    <td>22166035</td>
+                    <td>
+                      Thu thập, chuẩn hóa và thêm dữ liệu di tích, di tích lịch
+                      sử vào GeoJSON; đảm bảo đúng cấu trúc, có mô tả, hình ảnh
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Đặng Lê Bảo Trân</td>
+                    <td>22166086</td>
+                    <td>
+                      Tạo và cập nhật lớp bao_tang.geojison, thêm thông tin tên,
+                      vị trí, mô tả, ảnh; đồng bộ với frontend.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Nguyễn Trần Khải Lâm</td>
+                    <td>22166039</td>
+                    <td>
+                      Thiết kế giao diện tổng thể gồm trang chủ và các layout,
+                      giới thiệu và chức năng web.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Bùi Thanh Hoàng</td>
+                    <td>22166026</td>
+                    <td>
+                      Lập trình chức năng GetFeature Info, tạo và quản lý lớp
+                      geojson cho từng phường, kiểm tra tính năng truy vấn thông
+                      tin.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Lê Quốc Tiến</td>
+                    <td>22166083</td>
+                    <td>Kiểm thử các lớp geojson, kiểm thử hệ thống</td>
+                  </tr>
+                </tbody>
+              </table>
+            </ul>
+          </div>
+        </section>
+
+        <section id="view-functions1" class="view" style="display: none">
+          <div class="page"></div>
+        </section>
+
+        <section id="view-functions2" class="view" style="display: none">
+          <div class="page"></div>
+        </section>
+
+        <script>
+          document.querySelectorAll(".menu-item").forEach((item) => {
+            item.addEventListener("click", (e) => {
+              e.preventDefault();
+              const page = item.getAttribute("data-page");
+              const target = document.querySelector("#view-" + page + " .page");
+
+              // Ẩn tất cả section
+              document.querySelectorAll(".view").forEach((view) => {
+                view.style.display = "none";
+              });
+
+              // Hiện section tương ứng
+              target.parentElement.style.display = "block";
+
+              // Chỉ fetch cho các phần tách riêng
+              let url = "";
+              if (page === "functions1") url = "pages/main-program/index.html";
+              if (page === "functions2") url = "pages/contact/contact.html";
+
+              if (url) {
+                fetch(url)
+                  .then((res) => res.text())
+                  .then((html) => {
+                    target.innerHTML = html;
+
+                    // Sau khi chèn xong, load app.js nếu là functions1 (chỉ 1 lần)
+                    if (
+                      page === "functions1" &&
+                      !document.getElementById("mainProgramScript")
+                    ) {
+                      const script = document.createElement("script");
+                      script.id = "mainProgramScript";
+                      script.src = "pages/main-program/app.js";
+                      script.onload = () => {
+                        // gọi hàm initApp() sau khi script load
+                        if (typeof initApp === "function") {
+                          initApp();
+                        }
+                      };
+                      document.body.appendChild(script);
+                    }
+                  })
+                  .catch((err) => {
+                    target.innerHTML = "<p>Lỗi tải nội dung!</p>";
+                  });
+              }
+            });
+          });
+        </script>
+      </main>
+    </div>
+
+    <script>
+      (function () {
+        const toggle = document.getElementById("toggle");
+        const leftBar = toggle.parentElement;
+        const menu = leftBar.querySelector("nav.menu");
+        const menuItems = menu.querySelectorAll(".menu-item");
+
+        toggle.addEventListener("click", () => {
+          leftBar.classList.toggle("show-menu");
+        });
+
+        function setActive(page) {
+          document
+            .querySelectorAll(".view")
+            .forEach((v) => (v.style.display = "none"));
+          const view = document.getElementById("view-" + page);
+          if (view) view.style.display = "block";
+          menuItems.forEach((a) =>
+            a.classList.toggle("active", a.dataset.page === page)
+          );
+        }
+
+        menuItems.forEach((a) => {
+          a.addEventListener("click", function (e) {
+            e.preventDefault();
+            leftBar.classList.remove("show-menu");
+            setActive(this.dataset.page);
+          });
+        });
+
+        setActive("home");
+      })();
+    </script>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section contact">
+          <h2>Liên hệ với chúng tôi.</h2>
+          <span>Nhóm 9</span>
+          <br />
+          <span>Email: KietBell6677@gmail.com</span>
+          <br />
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2025 Nhóm 9. all rights reserved.</div>
+    </footer>
+
+    <!-- <script src="pages/main-program/app.js"></script> -->
+  </body>
+</html>

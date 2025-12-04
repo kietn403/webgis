@@ -1,0 +1,27 @@
+<div id="left-sidebar"> 
+  <div id="search-panel">
+      <div class="search-header">Tìm kiếm địa điểm</div>
+      <input type="text" id="searchInput" placeholder="Nhập tên di tích, bảo tàng...">
+      <div id="searchResults"></div>
+  </div>
+
+  <div id="controls">
+    <button id="myLocation" title="Tìm vị trí hiện tại của tôi">🌍 Vị trí của tôi</button>
+    
+    <select id="transportMode">
+      <option value="driving">🚗 Ô tô</option>
+      <option value="motorcycle">🏍 Xe máy</option>
+      <option value="foot">🚶‍♂️ Đi bộ</option>
+    </select>
+
+    <div id="route-control-buttons">
+        <button id="modeStart" data-mode="start" class="route-mode-btn active">Chọn Điểm Bắt Đầu (A)</button>
+        <button id="modeEnd" data-mode="end" class="route-mode-btn">Chọn Điểm Kết Thúc (B)</button>
+        <button id="clearRoute">Xóa Tuyến Đường</button>
+    </div>
+
+    <div id="routeInfo"></div>
+  </div>
+</div>
+
+<div id="map"></div>

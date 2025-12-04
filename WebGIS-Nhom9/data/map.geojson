@@ -1,0 +1,658 @@
+{
+  "type": "FeatureCollection",
+  "name": "tphcm-historical-sites",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bảo Tàng Địa Chất",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.7076753,
+          10.7849957
+        ],
+        "rating": 5,
+        "atmosphere": "Không gian khoa học, chuyên nghiệp. Phù hợp cho nghiên cứu và học tập về địa chất.",
+        "images": [
+          "https://cdn.xanhsm.com/2024/12/2f723b3a-bao-tang-dia-chat-thumb.jpg"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "1 nơi vô cùng thú vị",
+            "author": "Anonymous",
+            "time": "2025-12-01T15:10:33.692Z"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7076753,
+          10.7849957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bia Tưởng Niệm Trận Đánh Tòa Đại Sứ Mỹ",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.7008278,
+          10.7829668
+        ],
+        "rating": 4.5,
+        "atmosphere": "Trang nghiêm, mang đậm tính lịch sử. Nơi tưởng niệm các chiến sĩ cách mạng.",
+        "images": [
+          "https://file.qdnd.vn/data/images/0/2018/01/26/phucthang/26012018tcq03.jpg?w=578"
+        ],
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "4",
+            "author": "Anonymous",
+            "time": "2025-11-08T06:04:51.804Z"
+          },
+          {
+            "rating": 5,
+            "comment": "4",
+            "author": "Anonymous",
+            "time": "2025-11-08T06:05:00.850Z"
+          },
+          {
+            "rating": 4,
+            "comment": "vãi",
+            "author": "Anonymous",
+            "time": "2025-11-25T13:52:06.317Z"
+          },
+          {
+            "rating": 5,
+            "comment": "1 nơi thiêng liêng",
+            "author": "Anonymous",
+            "time": "2025-11-30T15:07:58.185Z"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7008278,
+          10.7829668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tượng Đức Bà Hòa Bình",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.6996004,
+          10.7792301
+        ],
+        "rating": 4.5,
+        "atmosphere": "Bình yên, tôn nghiêm. Điểm đến tâm linh trong khu vực trung tâm.",
+        "images": [
+          "https://banthochuabeconi.com/wp-content/uploads/2023/05/Ban-Tho-Chua-Beconi-Tuong-Cong-Giao-Beconi-2-1-1024x1024.png"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6996004,
+          10.7792301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tượng Trận Đánh Cư Xá Brink",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.7037257,
+          10.7776112
+        ],
+        "rating": 4.1,
+        "atmosphere": "Lịch sử, tưởng niệm. Ghi dấu sự kiện lịch sử quan trọng.",
+        "images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAB2OJO9xQU-eG8d7BIp1lHSt3gccMb0MvcA&s"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7037257,
+          10.7776112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tượng Đài Trần Văn Ơn",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.6994163,
+          10.7767077
+        ],
+        "rating": 4.7,
+        "atmosphere": "Trang trọng, ý nghĩa. Tượng đài tưởng nhớ người học sinh yêu nước.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/60/Tran_Van_On_statue.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6994163,
+          10.7767077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tượng Quách Thị Trang",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.6990208,
+          10.7762925
+        ],
+        "rating": 4.4,
+        "atmosphere": "Tôn vinh, tưởng niệm. Biểu tượng của lòng yêu nước và sự hy sinh.",
+        "images": [
+          "https://image.plo.vn/w460/Uploaded/2025/wcbaqlm3/5410_14chotjpg.jpg.webp"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6990208,
+          10.7762925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Di Tích Chuồng Chim Bồ Câu Người Ấn Tamil",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.7013967,
+          10.7740187
+        ],
+        "rating": 5,
+        "atmosphere": "Độc đáo, văn hóa. Di tích thể hiện sự giao thoa văn hóa Việt - Ấn.",
+        "images": [
+          "https://kenh14cdn.com/2017/jzstl5n-1505492433030.jpg"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "1 nơi thú vị để tham quan",
+            "author": "Anonymous",
+            "time": "2025-11-30T15:35:14.378Z"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7013967,
+          10.7740187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.70491281924129,
+          10.787976580753764
+        ],
+        "rating": 4.5,
+        "atmosphere": "Trang nghiêm, cổ kính. Kiến trúc Pháp kết hợp văn hóa Việt, không gian xanh mát.",
+        "images": [
+          "https://www.baotanglichsutphcm.com.vn/Data/Sites/1/News/17/baotanglichsutphcm1.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70491281924129,
+          10.787976580753764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bưu điện Trung tâm Sài Gòn",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.70004342178451,
+          10.779997734906178
+        ],
+        "rating": 4.4,
+        "atmosphere": "Cổ kính, nhộn nhịp. Kiến trúc Pháp đẹp, không gian rộng rãi, đông đúc khách tham quan.",
+        "images": [
+          "https://owa.bestprice.vn/images/destinations/uploads/buu-dien-thanh-pho-ho-chi-minh-60a1ec6764a14.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70004342178451,
+          10.779997734906178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chợ Bến Thành",
+        "ten_xa": "Bến Thành",
+        "coordinates": [
+          106.69801468761693,
+          10.77256580851337
+        ],
+        "rating": 5,
+        "atmosphere": "Sôi động, nhộn nhịp. Biểu tượng của Sài Gòn, đa dạng ẩm thực và hàng hóa.",
+        "images": [
+          "https://cdn.silverlandhotels.com/wp-content/uploads/2024/09/ben-thanh-market.jpg"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "1 nơi tấp nập, rộn ràng",
+            "author": "Anonymous",
+            "time": "2025-12-01T15:07:37.153Z"
+          },
+          {
+            "rating": 5,
+            "comment": "1 nơi vô cùng tấp nập",
+            "author": "Anonymous",
+            "time": "2025-12-03T07:46:44.551Z"
+          },
+          {
+            "rating": 5,
+            "comment": "rất tấp nập",
+            "author": "Anonymous",
+            "time": "2025-12-04T01:01:09.531Z"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69801468761693,
+          10.77256580851337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dinh Độc Lập",
+        "ten_xa": "Bến Thành",
+        "coordinates": [
+          106.69537172987332,
+          10.776998333332466
+        ],
+        "rating": 4.5,
+        "atmosphere": "Uy nghi, lịch sử. Công trình kiến trúc độc đáo, khuôn viên xanh mát, mang dấu ấn lịch sử quan trọng.",
+        "images": [
+          "https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/2-8.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69537172987332,
+          10.776998333332466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trưng bày Từ Dinh Norodom đến Dinh Độc Lập",
+        "ten_xa": "Bến Thành",
+        "coordinates": [
+          106.69728373420028,
+          10.776584354834903
+        ],
+        "rating": 4.6,
+        "atmosphere": "Giáo dục, lịch sử. Không gian trưng bày chuyên đề về lịch sử hình thành Dinh Độc Lập.",
+        "images": [
+          "https://focusasiatravel.vn/wp-content/uploads/2021/05/dinh-norodom-dinh-doc-lap-sai-gon-e1620356925458.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69728373420028,
+          10.776584354834903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bảo tàng Chiến dịch Hồ Chí Minh",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.70424168411736,
+          10.786982011342978
+        ],
+        "rating": 4.3,
+        "atmosphere": "Hào hùng, lịch sử. Trưng bày hiện vật và tư liệu về chiến dịch lịch sử năm 1975.",
+        "images": [
+          "https://vietnamtourism.vn/imguploads/tourist/2014/TPHoChiMinh/BTchiendichHCM/30BtCDHCM01.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70424168411736,
+          10.786982011342978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trụ sở Ủy ban Nhân dân TP. Hồ Chí Minh",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.70095989694168,
+          10.776595071913551
+        ],
+        "rating": 4.7,
+        "atmosphere": "Trang nghiêm, uy tín. Công trình kiến trúc Pháp cổ, là trung tâm hành chính của thành phố.",
+        "images": [
+          "https://images2.thanhnien.vn/528068263637045248/2025/1/4/ubnd-tphcm-1735980990913970968070.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70095989694168,
+          10.776595071913551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chủ tịch Hồ Chí Minh",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.701538,
+          10.7760329
+        ],
+        "rating": 5,
+        "atmosphere": "Tôn kính, trang trọng. Tượng đài Chủ tịch Hồ Chí Minh trong khuôn viên trụ sở UBND.",
+        "images": [
+          "https://media.baobinhphuoc.com.vn/Content/UploadFiles//EditorFiles/images/2015/Quy3/khanhthanhtuong.jpg"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "1 nơi rất tuyệt",
+            "author": "Anonymous",
+            "time": "2025-11-30T15:29:44.741Z"
+          },
+          {
+            "rating": 5,
+            "comment": "1 nơi rất tuyệt",
+            "author": "Anonymous",
+            "time": "2025-11-30T15:32:24.370Z"
+          },
+          {
+            "rating": 5,
+            "comment": "1 nơi tuyệt vời",
+            "author": "Anonymous",
+            "time": "2025-11-30T15:41:14.041Z"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.701538,
+          10.7760329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nhà hát Thành phố",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.70321049854778,
+          10.776702380180215
+        ],
+        "rating": 4.6,
+        "atmosphere": "Sang trọng, nghệ thuật. Kiến trúc Pháp cổ điển, là trung tâm văn hóa nghệ thuật của thành phố.",
+        "images": [
+          "https://kyhoatourist.com.vn/uploadwb/image/tintuc/nha-hat-lon-2.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70321049854778,
+          10.776702380180215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nhà thờ Đức Bà Sài Gòn",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.69903437583535,
+          10.77978995401836
+        ],
+        "rating": 4.4,
+        "atmosphere": "Linh thiêng, cổ kính. Kiến trúc Gothic tuyệt đẹp, không gian trang nghiêm, thu hút đông đảo du khách và tín đồ.",
+        "images": [
+          "https://saigonreview.vn/wp-content/uploads/2023/08/nha-tho-duc-ba-sai-gon.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69903437583535,
+          10.77978995401836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bảo tàng TPHCM",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.69965446799652,
+          10.775932693605514
+        ],
+        "rating": 5,
+        "atmosphere": "Văn hóa, giáo dục. Trưng bày các hiện vật lịch sử và văn hóa của thành phố, không gian yên tĩnh phù hợp cho nghiên cứu.",
+        "images": [
+          "https://mia.vn/media/uploads/blog-du-lich/bao-tang-thanh-pho-ho-chi-minh-1-1692623545.jpg"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "1 nơi vô cùng ý nghĩa",
+            "author": "Anonymous",
+            "time": "2025-12-01T15:12:43.227Z"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69965446799652,
+          10.775932693605514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+        "ten_xa": "Bến Thành",
+        "coordinates": [
+          106.69909043375328,
+          10.769887511534193
+        ],
+        "rating": 4.5,
+        "atmosphere": "Nghệ thuật, sáng tạo. Kiến trúc Indochine đẹp, không gian trưng bày nghệ thuật đa dạng, yên tĩnh phù hợp để thưởng lãm.",
+        "images": [
+          "https://cdn3.ivivu.com/2022/10/Bao-tang-My-thuat-TP-HCM-ivivu.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69909043375328,
+          10.769887511534193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bảo tàng Tôn Đức Thắng",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.7056757,
+          10.7767434
+        ],
+        "rating": 4.5,
+        "atmosphere": "Trang trọng, lịch sử. Tưởng niệm Chủ tịch Tôn Đức Thắng, không gian yên tĩnh phù hợp cho tham quan và nghiên cứu.",
+        "images": [
+          "https://baotangtonducthang.vn/upload/filemanage/z4766334399729_cf94ba7d6139a98a98f7e30ce41336b3.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7056757,
+          10.7767434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bảo tàng biệt động Sài Gòn - Gia Định",
+        "ten_xa": "Tân Định",
+        "coordinates": [
+          106.6882994,
+          10.7917384
+        ],
+        "rating": 3.3,
+        "atmosphere": "Hào hùng, lịch sử. Tái hiện sinh động hoạt động của lực lượng biệt động Sài Gòn, không gian chân thực và cảm xúc.",
+        "images": [
+          "https://cdn.nhandan.vn/images/1ef398c4e2fb4bf07980a2ded785b3ef6da51f0c0ad991901283c66f347bc9e46010769fdaaac99a8877508f7a8a3129466c927bcd337841cc466e022c56208b/bdsg3-1978.jpg"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "",
+            "author": "Anonymous",
+            "time": "2025-11-08T06:29:40.176Z"
+          },
+          {
+            "rating": 2,
+            "comment": "",
+            "author": "Anonymous",
+            "time": "2025-11-08T06:29:45.010Z"
+          },
+          {
+            "rating": 1,
+            "comment": "",
+            "author": "Anonymous",
+            "time": "2025-11-08T06:29:50.667Z"
+          },
+          {
+            "rating": 5,
+            "comment": "tuyệt",
+            "author": "Anonymous",
+            "time": "2025-12-03T07:49:38.167Z"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6882994,
+          10.7917384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thảo Cầm Viên",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.7050566,
+          10.7873344
+        ],
+        "rating": 4.3,
+        "atmosphere": "Thiên nhiên, trong lành. Vườn thú lâu đời nhất Việt Nam, không gian xanh mát, phù hợp cho gia đình và trẻ em.",
+        "images": [
+          "https://static.vinwonders.com/production/thao-cam-vien-1.jpg",
+          "https://ik.imagekit.io/tvlk/blog/2022/09/go-and-share-thao-cam-vien-sai-gon-3-1024x683.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7050566,
+          10.7873344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Di tích lịch sử Quán Nhan Hương - Thảo Cầm Viên",
+        "ten_xa": "Sài Gòn",
+        "coordinates": [
+          106.7075367,
+          10.7856894
+        ],
+        "rating": 4.7,
+        "atmosphere": "Cổ kính, yên tĩnh. Di tích nằm trong khuôn viên Thảo Cầm Viên, mang đậm dấu ấn lịch sử và văn hóa.",
+        "images": [
+          "https://cdn2.tuoitre.vn/zoom/600_315/471584752817336320/2025/5/7/bimatnb-17466118680281791422358-0-0-969-1851-crop-1746611871382690552503.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7075367,
+          10.7856894
+        ]
+      }
+    }
+  ]
+}
